@@ -81,6 +81,7 @@ open class MarkdownLexer(private val baseLexer: GeneratedLexer) {
                 MarkdownTokenTypes.LINK_ID,
                 MarkdownTokenTypes.LINK_TITLE,
                 MarkdownTokenTypes.URL,
+                MarkdownTokenTypes.EOL,
                 MarkdownTokenTypes.AUTOLINK,
                 MarkdownTokenTypes.EMAIL_AUTOLINK,
                 MarkdownTokenTypes.BAD_CHARACTER)
